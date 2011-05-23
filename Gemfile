@@ -1,11 +1,14 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.0'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'json'
+
+gem 'sinatra'
+gem 'infochimps_explorer', :git => 'git@github.com:dustacio/infochimps_explorer.git' , :branch => 'gemable_rackapp'
+
+
+gem   'icss', :git => "https://github.com/infochimps/icss.git", :branch => 'with_gorillib'
 
 # Use unicorn as the web server
 # gem 'unicorn'
